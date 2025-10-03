@@ -10,7 +10,14 @@
 
 
 
+/* header */
+.header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
+/*     background-position: top left, bottom right; Look */
 
 
 /* Nav styles */
@@ -68,4 +75,36 @@ nav li a{
     border: none;
 
 
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+/* justify-content space between deya te row borarbor 2 corner e 2 jon chole jabe */
+
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+ 
+   font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+
+}
+
+.banner-profile-pic{
+
+    width: 584px;
+    height: 676px;
 }
