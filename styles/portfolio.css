@@ -94,13 +94,35 @@ nav li a{
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
        
-    width: 150px;
-    height: 64px;
+    width: 200px;
+    height: 67px;
     font-size: 20px;
     border: none;
+    vertical-align: middle;
+    margin-right: 20px;
+
+
 
 
 }
+.sadia{
+    background-color: transparent;
+    border: 2px solid rgba(253, 110, 10, 1);
+    color: rgba(253, 110, 10, 1);
+    border-radius: 5px;
+    font-weight: bold;
+    width: 180px;
+    height: 64px;
+    font-size: 20px;
+
+    
+}
+/* .sadia{
+        display: inline;
+       margin-right: 30px;
+       justify-content: center;
+
+} */
 
 /* banner styles */
 
@@ -236,3 +258,8 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
 
 }
+
+/* go to font awesome website then */
+
+/* kit nilam: 
+<script src="https://kit.fontawesome.com/9ac08eb084.js" crossorigin="anonymous"></script> */
